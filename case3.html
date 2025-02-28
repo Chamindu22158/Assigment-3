@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CASE3</title>
+    <style>
+        #section1>div:nth-child(1){
+            width: 200px;
+            height: 200px;
+            border:10px solid red ;
+            top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 0%;
+            margin: auto;
+            position: fixed;
+            border-radius: 100%;
+        }
+        #section1>div:nth-child(1)>div{
+            width: 180px;
+            height: 180px;
+            border: 10px solid brown;
+            top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 0%;
+            margin: auto;
+            position: fixed;
+            border-radius: 100%;
+        }
+        #section2>div:nth-child(1){
+            height: 100vh;
+        }
+        /*#section2>div:nth-child(1){
+            width: 180px;
+            height: 180px;
+            background-color: purple;
+            top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 0%;
+            margin: auto;
+            position: fixed;
+            border-radius: 100%;
+        }*/
+        #section2>div:nth-child(1)>div {
+           /* background-color: purple;
+            width: 181px;
+            height: 180px;
+            margin: auto;
+            border-radius: 100%;*/
+            width: 180px;
+            height: 180px;
+            background-color: purple;
+            top: 0%;
+            left: 0%;
+            bottom: 0%;
+            right: 0%;
+            margin: auto;
+            position: absolute;
+            border-radius: 100%;
+        }
+        #section2>div:nth-child(1)>div>p {
+            margin-left: 0;
+            margin-right: 0;
+            padding: 70px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 20px;
+            position: absolute;
+        }
+        #section2>div:nth-child(2) {
+            height: 100vh;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section id="section1">
+    <div><div></div></div>
+    </section>
+
+    <section id="section2">
+        <div><div><p>Hellow</p></div></div>
+        <div><div><p>kohomada</p></div></div>
+    </section>
+</body>
+</html>
