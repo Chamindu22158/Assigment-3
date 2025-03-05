@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CASE2</title>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: Arial, sans-serif;
+    }
+    header {
+      border: 2px solid black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: white;
+    }
+    header img {
+      width: 160px;
+      height: 40px;
+    }
+    header div a {
+      color: black;
+      padding: 10px;
+      text-decoration: none;
+    }
+    #ijse2 {
+      display: flex;
+    }
+    #ijse2 nav {
+      width: 250px;
+      height: 100vh;
+      background-color: #4C0182;
+      padding-top: 20px;
+    }
+    #ijse2 nav a {
+      display: block;
+      text-decoration: none;
+      color: white;
+      padding: 15px 30px;
+    }
+    .content {
+      flex: 1;
+      padding: 20px;
+    }
+    .image-container {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-bottom: 20px;
+    }
+    .image-container img {
+      width: 30%;
+      border: 2px solid green;
+      padding: 10px;
+      background-color: white;
+    }
+    p {
+      text-align: justify;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #aaa7ae;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="assets/ijse.png">
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+</header>
+
+<section id="ijse2">
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <div class="content">
+    <div class="image-container">
+      <img src="assets/image1.png" alt="Image 1">
+      <img src="assets/image2.png" alt="Image 2">
+      <img src="assets/image3.png" alt="Image 3">
+    </div>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Commodi labore natus nemo...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cupiditate debitis fuga...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate debitis fuga...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate debitis fuga...</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate debitis fuga...</p>
+  </div>
+</section>
+
+<footer>
+  Developed by IJSE
+</footer>
+
+</body>
+</html>
